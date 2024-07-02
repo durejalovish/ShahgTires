@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 console.log('----- here in this function', process.env.DB_CONNECT);
 dotenv.config();
 console.log(process.env.DB_CONNECT, '---- db connecr');
-mongoose.connect('mongodb+srv://babanTire:Baban-12345@atlascluster.534bik7.mongodb.net/', 
+mongoose.connect('mongodb+srv://shahgtires:Baban-12345@cluster0.r9kivct.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', 
     { useNewUrlParser: true,
     useUnifiedTopology: true},
 (err, client) => {
