@@ -9,7 +9,7 @@
     "author": "",
     "license": "ISC",
     "engines": {
-        "node": "v17.3.0"
+        "node": "v17.9.1"
     },
     "dependencies": {
        "@hapi/joi": "^17.1.1",
